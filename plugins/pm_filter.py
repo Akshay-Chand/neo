@@ -89,9 +89,9 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/CyniteMoviesGroup'),
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+mPPk2AUcTPhhY2Q1'),
+            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/TechnicalCynite')
         ]
     )
    
@@ -384,12 +384,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ms = await client.send_cached_media(
                     chat_id=CH_FILTER,
                     file_id=file_id,
-                    caption=f'<b><i>📟 Name : <a href=https://t.me/MWUpdatez>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
+                    caption=f'<b><i>📟 Name : <a href=https://t.me/Cynitemovies>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
                 f'<b><i>{query.from_user.mention} Your File Is Ready ✨</i></b>\n\n'
-                f'<b><i>📟 Name : <a href=https://t.me/MWUpdatez>{title}</a></i></b>\n\n'
+                f'<b><i>📟 Name : <a href=https://t.me/Cynitemovies>{title}</a></i></b>\n\n'
                 f'<b><i>🎗 Size : {size}</b></i>\n\n'
                 '<i>⚡️Click The Below Button For Files.⚡️</i>',
                 True,
@@ -458,11 +458,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('sᴜᴘᴘᴏʀᴛ ᴘʟᴇᴀsᴇ')
     elif query.data == "help":
         buttons = [[            
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+mPPk2AUcTPhhY2Q1'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cynitemovies')
         ], [
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/AboutAadhi')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/cyniteofficial')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='start')
         ]]
@@ -611,9 +611,9 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCf_dVNrilcT0V2R--HbYpMA'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+mPPk2AUcTPhhY2Q1'),
+            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ'),
+            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cynitemovies')
         ]
     )
     
