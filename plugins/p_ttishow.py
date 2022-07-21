@@ -68,9 +68,9 @@ async def save_group(bot, message):
                     except:
                         pass
                 temp.MELCOW['welcome'] = await message.reply_photo(  
-                                                 photo="https://telegra.ph/file/e9ed7acd5aef2904c4d7a.jpg",                                               
-                                                 caption=f'<b>Hey, {u.mention} 👋🏻\nWelcome To Our Group {message.chat.title}\n\nYou Can Find Movies / Series / Animes etc. From Here. Enjoy 😉.\n\n<b>┏≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n┣ <b>ʏᴏᴜᴛᴜʙᴇ ᴄʜᴀɴɴᴇʟ ›› <a href=https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ>Technical Cynite</a></b></code>\n<b>┗≫ ғᴏʟʟᴏᴡ ɢʀᴏᴜᴘ ʀᴜʟᴇs</b>\n\nനിങ്ങൾക്ക് ഇവിടെ നിന്ന് സിനിമകൾ / സീരീസ് / ആനിമുകൾ മുതലായവ ലഭിക്കുന്നത് ആണ്..\n\n© <a href=https://t.me/Cynitemovies><b>Cynite Movies</b></a></b>',
-                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔰 ɢʀᴏᴜᴘ ʀᴜʟᴇs 🔰', url='https://t.me/TechnicalCynite') ] ] )
+                                                 photo="https://te.legra.ph/file/f760ea1ca9bfb8f595b0e.jpg",                                               
+                                                 caption=f'<b>Hey, {u.mention} 👋🏻\nWelcome To Our Group {message.chat.title}\n\nYou Can Find Movies / Series / Animes etc. From Here. Enjoy 😉.\n\n© <a href=https://t.me/iPapkornMovieGroup><b>Movie Request Group</b></a></b>',
+                                                 reply_markup=InlineKeyboardMarkup( [ [ InlineKeyboardButton('🔰 ɢʀᴏᴜᴘ 🔰', url='https://t.me/iPapkornMovieGroup') ] ] )
                 )
                  
 
