@@ -60,7 +60,7 @@ async def showid(client, message):
 @Client.on_message(filters.command("about"))
 async def aboutme(client, message):
         buttons= [[
-            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/AboutAadhi')
+            InlineKeyboardButton('sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ', url='https://t.me/Legend_695')
             ],[
             InlineKeyboardButton('🏠 ʜᴏᴍᴇ 🏠', callback_data='start'),
             InlineKeyboardButton('🔐 ᴄʟᴏsᴇ 🔐', callback_data='close_data')
@@ -149,11 +149,11 @@ async def who_is(client, message):
 @Client.on_message(filters.command("help"))
 async def help(client, message):
         buttons = [[            
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/DMoviesLand'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/MWUpdatez')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/iPapkornMovieGroup'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/movierequestV3')
         ], [
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Aadhi011')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Legend_695')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='start')
         ]]
