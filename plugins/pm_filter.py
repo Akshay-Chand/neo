@@ -68,7 +68,7 @@ async def next_page(bot, query):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"⊹ {get_size(file.file_size)} › {file.file_name}", callback_data=f'files#{file.file_id}'
+                    text=f"💾 {get_size(file.file_size)} › {file.file_name}", callback_data=f'files#{file.file_id}'
                 ),
             ]
             for file in files
@@ -388,7 +388,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 )
                 msg1 = await query.message.reply(
                 f'<b><i>{query.from_user.mention} Your File Is Ready ✨</i></b>\n\n'
-                f'<b><i>📟 Name : <a href=https://t.me/Cynitemovies>{title}</a></i></b>\n\n'
+                f'<b><i>📟 Name : <a href=https://t.me/iPapkornMovieGroup>{title}</a></i></b>\n\n'
                 f'<b><i>🎗 Size : {size}</b></i>\n\n'
                 '<i>⚡️Click The Below Button For Files.⚡️</i>',
                 True,
@@ -588,7 +588,7 @@ async def auto_filter(client, msg, spoll=False):
         btn = [
             [
                 InlineKeyboardButton(
-                    text=f"⊹ {get_size(file.file_size)} › {file.file_name}", callback_data=f'{pre}#{file.file_id}'
+                    text=f"💾 {get_size(file.file_size)} › {file.file_name}", callback_data=f'{pre}#{file.file_id}'
                 ),
             ]
             for file in files
