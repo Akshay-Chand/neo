@@ -89,9 +89,8 @@ async def next_page(bot, query):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+mPPk2AUcTPhhY2Q1'),
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/TechnicalCynite')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/iPapkornMovieGroup'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/movierequestV3'),
         ]
     )
    
@@ -152,7 +151,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/MWUpdatez><b>ᴍᴡ ᴜᴘᴅᴀᴛᴇᴢ</b></a>", disable_web_page_preview=True)            
+            k = await query.message.edit("<b>💌 ᴛʜɪs ᴍᴏᴠɪᴇ ɪs ɴᴏᴛ ʏᴇᴛ ʀᴇʟᴇᴀsᴇᴅ ᴏʀ ᴀᴅᴅᴇᴅ ᴛᴏ ᴍʏ ᴅᴀᴛᴀʙᴀsᴇ 💌</b>\n› <a href=https://t.me/RM_admin04bot><b>ADMIN SEND YOUR MOVIE Neme</b></a>", disable_web_page_preview=True)            
             await asyncio.sleep(14)
             await k.delete()
 
@@ -384,7 +383,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                 ms = await client.send_cached_media(
                     chat_id=CH_FILTER,
                     file_id=file_id,
-                    caption=f'<b><i>📟 Name : <a href=https://t.me/Cynitemovies>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
+                    caption=f'<b><i>📟 Name : <a href=https://t.me/iPapkornMovieGroup>{title}</a></i></b>\n\n<b><i>🎗 Size : {size}</b></i>\n\n<i>⚠️ This Message Will Be Auto-Deleted In Next 5 Minutes T𝘰 Avoid Copyright Issues.So Forward This File To Anywhere Else Before Downloading.. ⚠️</i>\n\n<b><i>🧑🏻‍💻 Requested By : {query.from_user.mention}\n🚀 Group : {query.message.chat.title}</i></b>',
                     protect_content=True if ident == "filep" else False 
                 )
                 msg1 = await query.message.reply(
@@ -458,11 +457,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer('sᴜᴘᴘᴏʀᴛ ᴘʟᴇᴀsᴇ')
     elif query.data == "help":
         buttons = [[            
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+mPPk2AUcTPhhY2Q1'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cynitemovies')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/iPapkornMovieGroup'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/movierequestV3')
         ], [
             InlineKeyboardButton('sᴛᴀᴛᴜs', callback_data='stats'),
-            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/cyniteofficial')
+            InlineKeyboardButton('ᴏᴡɴᴇʀ', url='https://t.me/Legend_695')
         ], [
             InlineKeyboardButton('ʙᴀᴄᴋ ᴛᴏ sᴛᴀʀᴛ', callback_data='start')
         ]]
@@ -611,9 +610,8 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0, 
         [
-            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/+mPPk2AUcTPhhY2Q1'),
-            InlineKeyboardButton('sᴜʙsᴄʀɪʙᴇ', url='https://youtube.com/channel/UCiaz-J50QhtJ73XEEjP_aLQ'),
-            InlineKeyboardButton('ᴄʜᴀɴɴᴇʟ', url='https://t.me/cynitemovies')
+            InlineKeyboardButton('ɢʀᴏᴜᴘ', url='https://t.me/iPapkornMovieGroup'),
+            InlineKeyboardButton('ɢʀᴏᴜᴘ 2', url='https://t.me/movierequestV3')
         ]
     )
     
